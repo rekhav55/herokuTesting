@@ -29,7 +29,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 // })
 
 app.get('/',(req,res)=>{
-    res.send('hiii');
+    res.render('raz.ejs');
 })
 
 app.get('/dashboard/:page', (req,res)=>{
